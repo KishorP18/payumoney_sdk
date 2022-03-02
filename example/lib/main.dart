@@ -22,21 +22,21 @@ class _MyAppState extends State<MyApp> {
 
   void startPayment() async {
     final data = await payu.buildPaymentParams(
-      amount: "400.0",
-      transactionId: "ORDER_123",
-      phone: "9999999999",
-      productInfo: "Nike shoes",
-      firstName: "First name",
-      email: "snooze@payu.in",
-      hash: "My hash will be here",
-      isProduction: false,
-      userCredentials: "9999999999",
-      merchantKey: "gtKFFX",
-      salt: "eCwWELxi",
-      merchantName: "My merchant name"
+        amount: "400.0",
+        transactionId: "C2161646224785587",
+        phone: "7899395319",
+        productInfo: "Nike shoes",
+        firstName: "Badal Sharma",
+        email: "badal@gmail.com",
+        hash: "2973e780893f5b3ff593cf92891a3763f20a9fb55c84c734d4e317727b75ccbae45d9f0da97e28c4521c03c144335c082c8b6045a296dccb24d1f5bc5063afd9",
+        isProduction: false,
+        userCredentials: "7899395319",
+        merchantKey: "mWI8Vl",
+        salt: "cMDID7EG",
+        merchantName: "Siply Services Pvt Ltd."
     );
 
-    Navigator.pop(context);
+
   }
 
   @override
@@ -64,3 +64,4 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+
