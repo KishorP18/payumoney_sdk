@@ -125,7 +125,7 @@ public class PayumoneySdkPlugin implements FlutterPlugin, MethodCallHandler,Plug
   private void buildPaymentParams(MethodCall call) {
       PayUCheckoutProConfig payUCheckoutProConfig = new PayUCheckoutProConfig ();
       payUCheckoutProConfig.setMerchantName((String)call.argument("merchantName"));
-      
+      payUCheckoutProConfig.setMerchantLogo(R.drawable.siply_merchant_logo);
 
 
 
